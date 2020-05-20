@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 検索結果へ表示されないようにする -->
+<meta name=”robots” content=”noindex,nofollow”>
+<title>シューティングゲーム</title>
+<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="eeeeff">
+	<h1>シューティング</h1>
+	<canvas id="can" style="background-color: #ffffff;" ></canvas>
+	<p>操作方法・・・方向キー：移動、スペース：ショット</p>
+	<audio id="BGM" loop src="audio/Peritune_Rapid.mp3"></audio><!-- BGM(通常時) -->
+	<audio id="BGM_boss" loop src="audio/Peritune_Irregular.mp3"></audio><!-- BGM(ボス時) -->
+	<audio id="se_1" src="audio/explode.mp3"></audio><!-- se1 -->
+	<script src="js/misc.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/jiki.js"></script>
+	<script src="js/teki.js"></script>
+	<script src="js/main2.js"></script>
+</body>
+</html>
